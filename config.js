@@ -1,6 +1,6 @@
 module.exports = {
 	cmdPerPage: 10, //- Number of commands per page of help command
-	adminId: "UserId", //- Replace UserId with the Discord ID of the admin of the bot
+	adminId: "561053221347524628", //- Replace UserId with the Discord ID of the admin of the bot
 	token: process.env.token || "", //- Bot's Token
 	clientId: process.env.clientId || "", //- ID of the bot
 	clientSecret: process.env.clientSecret || "", //- Client Secret of the bot
@@ -23,9 +23,9 @@ module.exports = {
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "", //- The host name or IP of the lavalink server.
-			port: 80, // The port that lavalink is listening to. This must be a number!
-			password: "", //- The password of the lavalink server.
+			host: "lavalink.tapori.xyz", //- The host name or IP of the lavalink server.
+			port: 8804, // The port that lavalink is listening to. This must be a number!
+			password: "whyareyougay", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
 			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
@@ -42,5 +42,5 @@ module.exports = {
 			},
 		],
 	},
-	iconURL: "https://cdn.darrennathanael.com/icons/spinning_disk.gif", //- This icon will be in every embed's author field
+	iconURL: "https://cdn.jsdelivr.net/gh/rekayno/nothing@main/spinning_disk.gif", //- This icon will be in every embed's author field
 };
